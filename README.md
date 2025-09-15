@@ -65,9 +65,43 @@ python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate
 ```
 
+
 **Install dependencies:**
 ```bash
 pip install -r requirements.txt
+```
+
+**Requirements file structure:**
+The `requirements.txt` is organized by category for clarity:
+
+```
+# Core Libraries
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+geopandas
+
+# Machine Learning
+xgboost
+lightgbm
+shap
+
+# Visualization & Mapping
+folium
+mapboxgl
+
+# App/Deployment
+streamlit
+
+# Notebook Environment
+jupyterlab
+notebook
+
+# Data Acquisition
+beautifulsoup4
+requests
 ```
 
 **Run the analysis notebooks:**
@@ -78,7 +112,7 @@ All workflows are documented in the `/notebooks` folder.
 ## 5. Team Members
 | Name                    | Role                          |
 |-------------------------|-------------------------------|
-| **Ibrahim Denis Fofanah** | Project Lead & Data Scientist |
-| **Bright Arowny Zaman**   | Data Lead                     |
-| **Jeevan Hemanth Yendluri** | Modeling Lead                  |
+| **Ibrahim Denis Fofanah** |  |
+| **Bright Arowny Zaman**   |                      |
+| **Jeevan Hemanth Yendluri** |                  |
 |
