@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+geopandas
+shap
+xgboost
+lightgbm
+streamlit
+folium
+mapboxgl
