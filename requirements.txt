@@ -1,12 +1,28 @@
+
+# Core Libraries
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
 geopandas
-shap
+
+# Machine Learning
 xgboost
 lightgbm
-streamlit
+shap
+
+# Visualization & Mapping
 folium
 mapboxgl
+
+# App/Deployment
+streamlit
+
+# Notebook Environment
+jupyterlab
+notebook
+
+# Data Acquisition
+beautifulsoup4
+requests
