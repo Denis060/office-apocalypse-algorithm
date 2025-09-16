@@ -1,2 +1,5 @@
 # Ignore large raw datasets
 /data/raw/*.csv
+
+# Ignore large processed datasets (can be regenerated)
+/data/processed/*.csv
