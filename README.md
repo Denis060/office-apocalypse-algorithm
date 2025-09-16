@@ -1,14 +1,3 @@
----
-
-## 6. Large Dataset Access
-
-Due to GitHub's file size limits, large raw datasets are not included in this repository. To use the main dataset for this project, please download it from Google Drive:
-
-**[Download ACRIS_-_Real_Property_Legals_20250915.csv (Google Drive)](https://drive.google.com/file/d/1B73K15zu3-OmoG_qy7XGhY1i-uq7HBeQ/view?usp=drive_link)**
-
-After downloading, place the file in the `data/raw/` directory.
-
-> **Note:** All large CSV files in `data/raw/` are excluded from version control via `.gitignore`.
 # The "Office Apocalypse" Algorithm: Predicting Commercial Real Estate Vacancy Risk in NYC
 
 ## 1. Project Overview
@@ -66,7 +55,7 @@ office-apocalypse-algorithm/
 
 **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/office-apocalypse-algorithm.git
+git clone https://github.com/Denis060/office-apocalypse-algorithm.git
 cd office-apocalypse-algorithm
 ```
 
@@ -75,7 +64,6 @@ cd office-apocalypse-algorithm
 python -m venv venv
 source venv/bin/activate     # On Windows: venv\Scripts\activate
 ```
-
 
 **Install dependencies:**
 ```bash
@@ -127,3 +115,15 @@ All workflows are documented in the `/notebooks` folder.
 | **Bright Arowny Zaman**   |                      |
 | **Jeevan Hemanth Yendluri** |                  |
 |
+
+---
+
+## 6. Large Dataset Access
+
+Due to GitHub's file size limits, large raw datasets are not included in this repository. To use the main dataset for this project, please download it from Google Drive:
+
+**[Download ACRIS_-_Real_Property_Legals_20250915.csv (Google Drive)](https://drive.google.com/file/d/1B73K15zu3-OmoG_qy7XGhY1i-uq7HBeQ/view?usp=drive_link)**
+
+After downloading, place the file in the `data/raw/` directory.
+
+> **Note:** All large CSV files in `data/raw/` are excluded from version control via `.gitignore`.
